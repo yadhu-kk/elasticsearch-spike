@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "6375d3c9-a6f9-4090-a2d6-6b47b935c360",
+		"name": "elastic-search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21897253"
+	},
+	"item": [
+		{
+			"name": "uploadJson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/varun/Downloads/Enriched 1.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/upload/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"upload",
+						"json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
